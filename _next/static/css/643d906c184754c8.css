@@ -377,6 +377,17 @@
     background: linear-gradient(90deg,transparent 2.78%,var(--lido-color-borders-fog) 22.81%,var(--lido-color-borders-fog) 70.89%,transparent 88.26%)
 }
 
+/* .container_innerContainer__1X9r6 a, */
+.all_staking_button_container a,
+.how-lido-works_container__J9PBW a {
+    /* border: solid red !important; */
+    pointer-events: none;
+}
+
+.stake_button {
+    pointer-events: auto;
+}
+
 .how-lido-works_wrapper__FOQvd {
     width: 100%;
     padding: 220px 0
